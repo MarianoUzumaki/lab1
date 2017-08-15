@@ -1,0 +1,5 @@
+A chamada da função funcX não alterou os valores das variáveis arg1 e arg2, sendo as mesmas 11 e 23 respectivamente. Nessa passagem de parâmetros, ocorre a criação de duas variaveis com os valores de arg1 e arg2 apenas, assim, não há alteração nos valores dela.
+
+A chamada da função funcY  não alterou os valores das variáveis arg1 e arg2, sendo as mesma 11 e 23 respectivamente. Nessa passagem de parâmetros, apesar de arg1 ser passada via endereço de memória, não houve em qualquer momento alteração do valor apontado por essa varialvel.
+
+A chamada da função funcZ  não alterou os valores das variáveis arg1 e arg2, sendo as mesma 11 e 23 respectivamente. Nessa passagem de parâmetros, ocorre a criação de duas variaveis com os valores de arg1 e arg2 apenas, assim, não há alteração nos valores dela. Contudo o valor do terceiro parâmetro, que é passado via endereço de memória, tem seu valor alterado, já que se mexeu no valor ocupador por tal endereço.
